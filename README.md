@@ -1,6 +1,9 @@
 # spooxed
 
-**spooxed** is an Android application designed to change the device's MAC address on Android 12-15 devices using the LSPosed (Xposed) framework. This app requires root access and BusyBox installed to function correctly.
+**spooxed** is an Android application designed to change the device's MAC address on Android 12-15 devices using the LSPosed (Xposed) framework. This app requires root access installed to function correctly.
+
+## Source code
+Source code is available [HERE](https://www.patreon.com/yogihermawan/shop)
 
 ## Features
 
@@ -12,7 +15,6 @@
 ## Requirements
 
 - **Root Access**: This app requires root privileges to change the MAC address.
-- **BusyBox Installed**: Make sure BusyBox is installed on your device for the app to work properly.
 - **LSPosed (Xposed) Framework**: This app utilizes LSPosed for making the necessary changes to the MAC address.
 
 ## Usage
@@ -30,6 +32,8 @@
 - **[Kotlin](https://kotlinlang.org/)**
 
 - **[Kotlinx Serialization](https://github.com/Kotlin/kotlinx.serialization)**
+
+- **[libsu](https://github.com/topjohnwu/libsu)**
 
 - **[libxposed API](https://github.com/libxposed)**
 
